@@ -8,7 +8,6 @@ public class Utils {
 
 	public static String encoder(String pass)
 	{
-		//Encoder Logic
        Encoder encoder = Base64.getEncoder();
        String encodedPass = encoder.encodeToString(pass.getBytes());
        return encodedPass;
