@@ -15,6 +15,7 @@ public class Utils {
 	
 	public static byte[] decoder(String encodedpass)
 	{
+		//decoder
        Decoder decoder = Base64.getDecoder();
        byte[] decodedPass = decoder.decode(encodedpass.getBytes());
        return decodedPass;
